@@ -50,7 +50,7 @@ function BirthdayCard() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }} // sudah diperbaiki ke 1
               transition={{ duration: 5 }}
-              src="10.jpg"
+              src="/public/10.jpg"
               alt="Birthday Cake"
               className="w-40 h-40 mb-4 rounded-sm"
             />
