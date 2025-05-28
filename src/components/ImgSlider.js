@@ -29,8 +29,11 @@ function ImgSlider() {
   }, []);
 
   // Buat array image dari 1.jpg sampai 27.jpg
-  const images = Array.from({ length: 27 }, (_, i) => `/${i + 1}.jpg`);
-
+  const images = Array.from({ length: 27 }, (_, i) => {
+    const n = i + 1;
+    const ext = [1, 10, 20, 23].includes(n) ? "JPG" : "jpg";
+    return `/${n}.${ext}`;
+  });
   return (
     <div className=" bg-pink-100">
       <motion.div

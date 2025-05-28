@@ -9,14 +9,7 @@ function BirthdayCard() {
   const audioRef = useRef(null);
   const { scrollYProgress } = useScroll();
 
-  const [sliderRef] = useKeenSlider({
-    loop: true,
-    mode: "free-snap",
-    slides: {
-      perView: 1,
-      spacing: 15,
-    },
-  });
+ 
 
   const handleOpen = () => {
     setOpened(true);
@@ -38,8 +31,8 @@ function BirthdayCard() {
           🎁 Happy Birthday's Sayangg, di klik dongg ...
         </motion.button>
       ) : (
-        <div className="w-full ">
-          <div className="min-h-screen flex flex-col items-center text-center justify-center ">
+        <div className="w-full overflow-x-hidden ">
+          <div className="min-h-screen flex flex-col items-center text-center justify-center w-full max-w-sm mx-auto  ">
             <motion.div
               id="scroll-indicator"
               style={{
@@ -64,18 +57,18 @@ function BirthdayCard() {
             <h1 className="text-2xl font-bold text-pink-700 mb-2">
               Selamat Ulang Tahun ke-19 yawss sengkuhh!
             </h1>
-            <p className="text-base text-pink-600">
+            <p className="text-base  text-pink-600">
               Sebelumnya semoga harimu penuh kebahagiaan dan cinta 🎉💖 <br />{" "}
               geser kebawah dulu yukk ada ucapan ari rayii gantengg.
             </p>
           </div>
 
-          <div className="px-14">
+          <div className="">
             <motion.p
               initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
-              className="py-7"
+              className="py-7 "
             >
               Sayang, selamat ulang tahun yaa! 🥳 Hari ini tuh bukan cuma
               harimu, tapi juga hari yang spesial banget buat aku — karena hari
