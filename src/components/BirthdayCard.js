@@ -53,11 +53,11 @@ function BirthdayCard() {
               className="w-40 h-40 mb-4 rounded-sm"
             />
             <h1 className="text-2xl font-bold text-pink-700 mb-2">
-              Selamat Ulang Tahun ke-19 yawss sengkuhh!
+              Selamat Ulang Tahun ke-19 yawss sengkuhh! isnaini days
             </h1>
             <p className="text-base  text-pink-600">
               Sebelumnya semoga harimu penuh kebahagiaan dan cinta 🎉💖 <br />{" "}
-              geser kebawah dulu yukk ada ucapan ari rayii gantengg.
+              geser kebawah dulu yukk ada ucapan dari rayii gantengg.
             </p>
           </div>
 
