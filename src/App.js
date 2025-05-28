@@ -1,4 +1,3 @@
-import React from "react";
 import BirthdayCard from "./components/BirthdayCard";
 import './index.css'; // kalau maksudnya impor CSS
 import ImageSlider from "./components/ImgSlider";
