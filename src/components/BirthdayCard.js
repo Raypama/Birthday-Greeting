@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { useScroll } from "framer-motion"; // ✅ BENAR
-import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 function BirthdayCard() {

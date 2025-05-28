@@ -2,7 +2,6 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-import { div } from "framer-motion/client";
 
 function ImgSlider() {
   const [sliderRef, instanceRef] = useKeenSlider({
